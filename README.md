@@ -1,8 +1,8 @@
 # CoRRe
-**[CIKM 2026 Short Paper Track Under Review]**
+Official github repository for **Training-Free LLM-Based Recommendation with Post-LLM Item Refinement Using Collaborative Signals**. (CIKM 2026 Short Paper Track Under Review)
 
 
-# GitHub Quick Start Guide 🚀
+## GitHub Quick Start Guide 🚀
 
 This repo follows a 3-step pipeline:
 
