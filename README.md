@@ -1,5 +1,6 @@
 # CoRRe
-[CIKM 2026 Short Paper Track Under Review]
+**[CIKM 2026 Short Paper Track Under Review]**
+
 
 # GitHub Quick Start Guide 🚀
 
@@ -25,19 +26,20 @@ export OPENAI_API_KEY=your-openai-api-key
 
 ```text
 data/{dataset}/
-├── inter.json
-├── item2id.json
-├── user2id.json
-├── title.pickle
-├── gpt_feat.npy
-├── generated_intent.json
-└── refined_itemfeat.npy
+├── inter.json: User-item interaction data.
+├── item2id.json: Mapping from item IDs to internal indices.
+├── user2id.json: Mapping from user IDs to internal indices.
+├── title.pickle: Item titles.
+├── gpt_feat.npy: LLM-based embeddings of item titles.
+├── generated_intent.json: LLM-generated user intents/profiles.
+└── refined_itemfeat.npy: Refined item embeddings.
 
 ```
 
 `{dataset}` should be one of: `sports`, `toys`, `beauty`
 
----
+Due to file size limitations, gpt_feat.npy and refined_itemfeat.npy are provided separately. Please download them from the following Dropbox link and place them in the appropriate feature directory:
+https://www.dropbox.com/scl/fo/rtloyxm3qoawuclb2utgf/AOrrzXzDQN7hYT154RXY8jU?rlkey=5jprf6flw3g9x7hxcqj1vkzl2&st=uy53dm1v&dl=0
 
 ## 1) Run `refinement.py`
 
