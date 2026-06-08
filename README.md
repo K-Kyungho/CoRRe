@@ -1,6 +1,7 @@
 # CoRRe
 Official github repository for **Training-Free LLM-Based Recommendation with Post-LLM Item Refinement Using Collaborative Signals**. (CIKM 2026 Short Paper Track Under Review)
 
+- Online Appendix: See `[Online Appendix] CoRRe.pdf` in the root folder.
 
 ## GitHub Quick Start Guide 🚀
 
