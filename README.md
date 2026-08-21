@@ -1,6 +1,11 @@
 # CoRRe
 Official github repository for **Training-Free LLM-Based Recommendation with Post-LLM Item Refinement Using Collaborative Signals**. (Published as a conference paper at CIKM 2026)
 
+[![arXiv](https://img.shields.io/badge/arXiv-2608.19665-b31b1b.svg)](https://arxiv.org/abs/2608.19665)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+
+
 - Online Appendix: See `[Online Appendix] CoRRe.pdf` in the root folder.
 
 ## GitHub Quick Start Guide 🚀
